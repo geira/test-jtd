@@ -24,6 +24,13 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+#defaults:
+#  run:
+#    working-directory: docs
+
+env:
+  BUNDLE_GEMFILE: docs/Gemfile
+
 jobs:
   # Build job
   build:
