@@ -24,9 +24,14 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-defaults:
-  run:
-    working-directory: docs
+#defaults:
+#  run:
+#    working-directory: docs
+# Results in:
+#> Run bundle exec jekyll build --baseurl "/test-jtd"
+#> bundler: command not found: jekyll
+#> Install missing gem executables with `bundle install`
+#> Error: Process completed with exit code 127.
 
 env:
   BUNDLE_GEMFILE: docs/Gemfile
