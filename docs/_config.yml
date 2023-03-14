@@ -4,7 +4,8 @@ theme: just-the-docs
 
 #url: https://just-the-docs.github.io
 
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
+#baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://in2000.aalberg.com"
 repository:  geira/test-jtd
 
