@@ -33,7 +33,7 @@ concurrency:
 #> Install missing gem executables with `bundle install`
 #> Error: Process completed with exit code 127.
 
-env:
+#env:
 #  BUNDLE_GEMFILE: docs/Gemfile
 
 jobs:
